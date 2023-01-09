@@ -1,5 +1,5 @@
-vpc_name: "Vprofile_vpc"
-
+VPC_NAME: "Vprofile_vpc"
+region: eu-west-2
 vpc_cidr: "10.0.0.0/16"
 
 pub_sub1_cidr: "10.0.1.0/24"
@@ -9,7 +9,6 @@ priv_sub4_cidr: "10.0.4.0/24"
 priv_sub5_cidr: "10.0.5.0/24"
 priv_sub6_cidr: "10.0.6.0/24"
 
-region: "eu-west-2"
 
 zone1: "eu-west-1"
 zone2: "eu-west-2"

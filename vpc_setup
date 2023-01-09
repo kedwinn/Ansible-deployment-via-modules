@@ -1,10 +1,7 @@
-#### specify the vpc name
 vpc_name: "vprofile_vpc"
 
-#### specify the VPC RANCE
-vpcCidr: "10.0.0.0/16"
+vpcCidr: '10.0.0.0/16'
 
-#### Specify the Subnet Range
 PubSub1Cidr: 10.0.1.0/24
 PubSub2Cidr: 10.0.2.0/24
 PubSub3Cidr: 10.0.3.0/24
@@ -12,10 +9,9 @@ PrivSub4Cidr: 10.0.4.0/24
 PriSub5Cidr: 10.0.5.0/24
 PrivSub6cidr: 10.0.6.0/24
 
-#### Specify the Region Name
+
 region: "eu-west-2"
 
-#### specify the  Zone Names
 zone1: eu-west-1
 zone2: eu-west-2
 zone3: eu-west-3
